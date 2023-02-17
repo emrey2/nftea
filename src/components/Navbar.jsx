@@ -7,15 +7,26 @@ import { FaTwitter, FaInstagram } from "react-icons/fa";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [logo, setLogo] = useState(false);
+  const [color, setColor] = useState(false);
   const handleNav = () => {
     setNav(!nav);
     setLogo(!logo);
   };
 
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="flex flex-row-reverse w-full absolute justify-between items-center  h-14 px-4 top-0 z-10 text-white">
+    <div className={color ? "navbar navbar-bg" : "navbar"}>
       <div className="links">
-        <a href="/">Home</a>
+        <a href="#Home">Home</a>
         <a href="#About">About Us</a>
         <a href="#Roadmap">Roadmap</a>
         <a href="#Contact">Contact</a>

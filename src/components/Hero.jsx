@@ -3,7 +3,7 @@ import hero from "../assets/layoutcut.png";
 
 const Hero = () => {
   return (
-    <div className="w-full h-full relative">
+    <div id="Home" className="w-full h-full relative">
       <img
         className="top-0 left-0 w-full h-full object-cover"
         src={hero}
