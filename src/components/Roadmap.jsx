@@ -5,7 +5,7 @@ import communityImg from "../assets/community.png";
 import divider from "../assets/Divider.png";
 const Roadmap = () => {
   return (
-    <div id="Roadmap" className="max-w-[1140px] mx-auto mt-20">
+    <div id="Roadmap" className="max-w-[1140px] mx-auto mt-8">
       <div className="flex justify-between mx-16 items-center">
         <div className="max-w-[65%]">
           <h1 className="text-right drop-shadow-2xl my-4  text-[#EAD4AC] font-bold text-5xl">
