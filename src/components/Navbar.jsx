@@ -13,21 +13,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-row-reverse w-full absolute justify-between items-center  h-20 px-4 top-0 z-10 text-white">
-      <ul className="hidden md:flex">
-        <li className="mx-4">
-          <a href="/">Home</a>
-        </li>
-        <li className="mx-4">
-          <a href="#About">About Us</a>
-        </li>
-        <li className="mx-4">
-          <a href="#Roadmap">Roadmap</a>
-        </li>
-        <li className="mx-4">
-          <a href="#Contact">Contact</a>
-        </li>
-      </ul>
+    <div className="flex flex-row-reverse w-full absolute justify-between items-center  h-14 px-4 top-0 z-10 text-white">
+      <div className="links">
+        <a href="/">Home</a>
+        <a href="#About">About Us</a>
+        <a href="#Roadmap">Roadmap</a>
+        <a href="#Contact">Contact</a>
+      </div>
 
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
