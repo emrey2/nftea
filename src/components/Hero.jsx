@@ -19,7 +19,7 @@ const Hero = () => {
             preserve cultural heritage with 300 exclusive pixel art pieces on
             the blockchain.
           </p>
-          <button className=" mt-2">View on Opensea</button>
+          <button className=" mt-2">View on OpenSea</button>
         </div>
       </div>
     </div>

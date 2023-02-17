@@ -27,7 +27,7 @@ const AboutUs = () => {
           nihil facilis aliquid eaque vel quisquam.
         </p>
         <div>
-          <button>View on opensea</button>
+          <button>View on OpenSea</button>
         </div>
       </div>
       {/* Right Side */}
