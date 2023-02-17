@@ -33,7 +33,7 @@ const Mailbox = () => {
             <input
               type="email"
               id="email"
-              className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg focus:ring-[#b0885a] focus:border-[#b0885a] block w-full p-2.5 "
+              className="shadow-sm bg-[#0d2b25] border border-[#b0885a] rounded-lg text-white  block w-full p-2.5 "
               placeholder="name@example.com"
               required
             />
@@ -48,7 +48,7 @@ const Mailbox = () => {
             <input
               type="text"
               id="subject"
-              className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg focus:ring-[#b0885a] focus:border-[#b0885a] block w-full p-2.5 "
+              className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg  block w-full p-2.5 "
               placeholder="Let us know how we can help you"
               required
             />
@@ -63,7 +63,7 @@ const Mailbox = () => {
             <textarea
               id="message"
               rows="6"
-              className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg focus:ring-[#b0885a] focus:border-[#b0885a] block w-full p-2.5 "
+              className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg  block w-full p-2.5 "
               placeholder="Leave a comment..."
             ></textarea>
           </div>
