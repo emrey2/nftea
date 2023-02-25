@@ -19,7 +19,7 @@ const AboutUs = () => {
         <p className="text-2xl py-6 text-[#b0885a]">
           The first and only collection of tokenized tea postcards.
         </p>
-        <p className="pb-6 text-[#b0885a] ">
+        <p className="pb-6 text-[#b0885a] text-lg">
           Blockchain’s Tea Wonders is a collection of 300 one-of-a-kind low-cost
           collectible postcards that represent the tea culture around the world
           with proof of ownership stored on the Ethereum blockchain and
