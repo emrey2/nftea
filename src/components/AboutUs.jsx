@@ -34,13 +34,13 @@ const AboutUs = () => {
       </div>
       {/* Right Side */}
 
-      <div className="grid grid-cols-2 grid-rows-2">
+      <div className="grid-container mt-40">
         <a
           target="_blank"
           href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/61137442917631097229239203684473123070762806021368897069094474521944015241217"
         >
           <img
-            className=" object-contain w-full  h-full p-2 hover:scale-105 duration-300"
+            className=" object-cover w-full  h-full p-2 hover:scale-105 duration-300"
             src={india}
             alt="/"
           />
@@ -50,7 +50,7 @@ const AboutUs = () => {
           href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/61137442917631097229239203684473123070762806021368897069094474449376247808001"
         >
           <img
-            className=" object-contain w-full h-full p-2 hover:scale-105 duration-300"
+            className=" object-cover w-full h-full p-2 hover:scale-105 duration-300"
             src={japan}
             alt="/"
           />
@@ -60,7 +60,7 @@ const AboutUs = () => {
           href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/61137442917631097229239203684473123070762806021368897069094474586815201280001"
         >
           <img
-            className="object-contain w-full h-full p-2 hover:scale-105 duration-300"
+            className="object-cover w-full h-full p-2 hover:scale-105 duration-300"
             src={turkey}
             alt="/"
           />
@@ -70,7 +70,7 @@ const AboutUs = () => {
           href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/61137442917631097229239203684473123070762806021368897069094474538436689657857"
         >
           <img
-            className=" object-contain w-full h-full p-2 hover:scale-105 duration-300"
+            className=" object-cover w-full h-full p-2 hover:scale-105 duration-300"
             src={england}
             alt="/"
           />

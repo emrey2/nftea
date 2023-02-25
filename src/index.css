@@ -35,6 +35,21 @@
     opacity: 0.8s;
   }
 
+  p {
+    @apply text-lg;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+  }
+
   .links:hover a {
     opacity: 0.25;
   }
