@@ -15,11 +15,13 @@ const Hero = () => {
             Drink in the art of scarcity
           </h1>
           <p className="max-w-[600px]   text-[#b0885a] drop-shadow-2xl py-2 text-xl">
-            Where culture meets art in a unique NFT collection. Celebrate and
+            Where culture meets art in unique NFT collections. Celebrate and
             preserve cultural heritage with 300 exclusive pixel art pieces on
-            the blockchain.
+            the blockchain; join a growing community today.
           </p>
-          <button className=" mt-2">View on OpenSea</button>
+          <a href="#About">
+            <button className=" mt-2">Discover More</button>
+          </a>
         </div>
       </div>
     </div>

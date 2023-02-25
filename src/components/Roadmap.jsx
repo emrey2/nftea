@@ -9,71 +9,77 @@ const Roadmap = () => {
       <div className="flex justify-between mx-16 items-center">
         <div className="max-w-[65%]">
           <h1 className="text-right drop-shadow-2xl my-4  text-[#EAD4AC] font-bold text-5xl">
-            Our Future
+            A sip of future
           </h1>
           <p className="text-right text-[#b0885a]">
-            The "NFTEA" collection is now available on OpenSea, featuring a
-            curated selection of NFTs with a focus on value and scarcity.
+            We are developing utilities such as: ability to integrate the NFTs
+            into email footers and a 360-degree model of the postcard with a
+            blank back which you can write anything on it.
           </p>
-          <p className="my-2 text-right text-[#b0885a]">
-            We are actively developing an additional drop which will contain
-            maximum of 300 unique pieces to keep our scarcity promise.
+          <p className="my-8 text-right text-[#b0885a]">
+            Moreover, we also are designing an another upcoming NFT collection
+            in which we will be going more in-depth of tea culture of the globe
           </p>
           <p className="text-right text-[#b0885a]">
-            Our website and social media channels are updated on a regular basis
-            to keep our community informed about upcoming drops, partnerships
-            and other relevant news.
+            Furthermore, we are planning to build an online tea shop that will
+            first be based on our NFTs and thereafter reflect the entire global
+            tea culture.
+          </p>
+          <p className="text-right my-4 text-[#b0885a]">
+            To be transparent, we currently lack the funding necessary to
+            implement these proposals. We promise to let you know when we act.
           </p>
         </div>
-        <div className="w-[300px]">
+        <div className="w-[340px]">
           <img src={roadImg} alt="" />
         </div>
       </div>
       <div className="flex flex-row-reverse my-12 justify-between mx-16 items-center ">
         <div className="max-w-[65%]">
           <h1 className="text-left drop-shadow-2xl my-4  text-[#EAD4AC] font-bold text-5xl">
-            Our People
+            Next generation tea party
           </h1>
           <p className="text-left text-[#b0885a]">
-            At NFTEA we strive to build a community of like-minded individuals
-            who are passionate about NFTS.
+            We at NFTEA work hard to create a community who share our enthusiasm
+            for NFTs and perhaps tea.
           </p>
-          <p className="my-2 text-left text-[#b0885a]">
-            Holding an NFT from our curated collection is not ony an investment,
-            but also a way to join our community and connect with others who
-            share your interests.
+          <p className="my-8 text-left text-[#b0885a]">
+            Being a part of our community through Discord will grant you access
+            to our 50 NFT giveaways of every collection we plan to release;
+            giveaways will be taken place at the exact time of public sale date.
           </p>
           <p className="text-left text-[#b0885a]">
-            We are dedicated to providing a professional and helpful experience
-            for our customers, and we look forward to building connections
-            within the NFT community.
+            Some advantages of our community include opportunities for learning
+            about non-fungible tokens, the blockchain, NFT art, access to a
+            network of like-minded collectors and aficionados, and more
           </p>
         </div>
-        <div className="w-[300px]">
+        <div className="w-[340px]">
           <img src={communityImg} alt="" />
         </div>
       </div>
       <div className="flex justify-between mx-16 items-center ">
         <div className="max-w-[65%]">
           <h1 className="text-right drop-shadow-2xl my-4  text-[#EAD4AC] font-bold text-5xl">
-            Our System
+            Brewed to perfection, forever.
           </h1>
           <p className="text-right text-[#b0885a]">
-            At NFTEA, we mint our NFTs on the Etherium blockchain for it's
-            transparency and security. This ensures that our NFTs are unique,
-            scarce and temper-proof.
+            At NFTEA, we mint our collections on the Ethereum blockchain for its
+            transparency and security. This ensures that our tokens are unique,
+            scarce, temper-proof and most importantly forever lasting.
           </p>
-          <p className="my-2 text-right text-[#b0885a]">
-            Using Etherium also enables us to take advantage of the growing
-            ecosystem of decentralized applications, giving our customers more
-            options for storage, transfer and display of their NFTs.
+          <p className="my-8 text-right text-[#b0885a]">
+            Using Ethereum also enables us to take advantage of the growing
+            ecosystem of decentralized applications, use of smart contracts for
+            our future references, giving our customers more options for
+            storage, transfer and display of their NFTs.
           </p>
           <p className="text-right text-[#b0885a]">
-            We believe that minting our NFTs on Etherium is the best choice for
+            We believe that minting our NFTs on Ethereum is the best choice for
             our customers and for the long-term growth of our brand.
           </p>
         </div>
-        <div className="w-[300px]">
+        <div className="w-[340px]">
           <img src={ethImg} alt="" />
         </div>
       </div>

@@ -14,20 +14,22 @@ const AboutUs = () => {
       {/* Left Side */}
       <div className="flex flex-col h-full justify-center">
         <h3 className="text-5xl text-[#EAD4AC] md:text-6xl font-bold">
-          Lorem ipsum dolor sit
+          Discover the Blockchain's Tea Wonders
         </h3>
         <p className="text-2xl py-6 text-[#b0885a]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-          nam?
+          The first and only collection of tokenized tea postcards.
         </p>
         <p className="pb-6 text-[#b0885a]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-          voluptates nostrum dolorum reprehenderit error! Doloribus est illo
-          eius saepe? Molestias sapiente perspiciatis doloribus consectetur
-          nihil facilis aliquid eaque vel quisquam.
+          Blockchain’s Tea Wonders is a collection of 300 one-of-a-kind low-cost
+          collectible postcards that represent the tea culture around the world
+          with proof of ownership stored on the Ethereum blockchain and
+          published on the NFT marketplace of OpenSea, all the while building a
+          community as the essence.
         </p>
         <div>
-          <button>View on OpenSea</button>
+          <a href="https://opensea.io/collection/tea-wonders" target="_blank">
+            <button>View on OpenSea</button>
+          </a>
         </div>
       </div>
       {/* Right Side */}

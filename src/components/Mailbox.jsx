@@ -11,9 +11,9 @@ const Mailbox = () => {
               Contact Us
             </h2>
             <p className="mb-8 lg:mb-16 font-light text-center text-[#b0885a]  sm:text-xl">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-              penatibus et magnis
+              We’d really love to hear from you, like really. We value your
+              feedback either negative or positive. So don’t hesitate to contact
+              us.
             </p>
           </div>
 

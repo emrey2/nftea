@@ -21,6 +21,12 @@
     gap: 16px;
   }
 
+  #Footer {
+    background-image: url("./assets/croppedfooter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   .links a {
     text-decoration: none;
     color: #f9f9f9;
