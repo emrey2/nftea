@@ -34,7 +34,7 @@ const AboutUs = () => {
       </div>
       {/* Right Side */}
 
-      <div className="grid-container mt-40">
+      <div className="grid-container pt-40">
         <a
           target="_blank"
           href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/61137442917631097229239203684473123070762806021368897069094474521944015241217"
