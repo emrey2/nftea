@@ -9,7 +9,7 @@ const Hero = () => {
         src={hero}
         alt="/"
       />
-      <div className="sm:absolute sm:top-0 sm:w-full sm:mt-28 sm:h-full sm:flex sm:flex-col sm:justify-center mb-16 p-4">
+      <div className="sm:absolute sm:top-0 sm:w-full sm:mt-28 sm:h-full sm:flex sm:flex-col sm:justify-center mb-8 p-4">
         <div className="sm:left-[50%] sm:max-w-[400px] sm:ml-[212px] sm:absolute sm:pl-2">
           <h1 className="font-bold text-5xl  text-[#EAD4AC] sm:text-2xl drop-shadow-2xl ">
             Drink in the art of scarcity
