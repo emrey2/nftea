@@ -24,7 +24,7 @@
   #Footer {
     background-image: url("./assets/croppedfooter.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .links a {
