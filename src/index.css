@@ -45,7 +45,7 @@
   }
 
   .navbar {
-    @apply flex flex-row-reverse w-full fixed duration-300 justify-between  items-center  h-14 px-4 top-0 z-20 text-white;
+    @apply flex flex-row-reverse w-full fixed duration-300  items-center  h-14 px-4 top-0 z-20 text-white;
   }
 
   .navbar-bg {

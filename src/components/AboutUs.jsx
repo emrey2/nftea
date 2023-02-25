@@ -9,17 +9,17 @@ const AboutUs = () => {
   return (
     <div
       id="About"
-      className="max-w-[1140px] m-auto px-4 grid lg:grid-cols-2 gap-4"
+      className="max-w-[1140px] m-auto px-4 grid sm:grid-cols-2 gap-4 "
     >
       {/* Left Side */}
       <div className="flex flex-col h-full justify-center">
-        <h3 className="text-5xl text-[#EAD4AC] md:text-6xl font-bold">
+        <h3 className="text-5xl text-[#EAD4AC] sm:text-6xl font-bold">
           Discover the Blockchain's Tea Wonders
         </h3>
         <p className="text-2xl py-6 text-[#b0885a]">
           The first and only collection of tokenized tea postcards.
         </p>
-        <p className="pb-6 text-[#b0885a]">
+        <p className="pb-6 text-[#b0885a] ">
           Blockchain’s Tea Wonders is a collection of 300 one-of-a-kind low-cost
           collectible postcards that represent the tea culture around the world
           with proof of ownership stored on the Ethereum blockchain and
@@ -34,7 +34,7 @@ const AboutUs = () => {
       </div>
       {/* Right Side */}
 
-      <div className="grid grid-cols-2 grid-rows-2 h-[60vh]">
+      <div className="grid grid-cols-2 grid-rows-2 sm:h-[60vh]">
         <img
           className=" object-contain w-full  h-full p-2 hover:scale-105 duration-300"
           src={india}
@@ -57,7 +57,11 @@ const AboutUs = () => {
         />
       </div>
 
-      <img src={divider} alt="" className="ml-[310px] mt-8 w-[1080px]" />
+      <img
+        src={divider}
+        alt=""
+        className="ml-[310px] mt-8 w-[1080px] hidden sm:block"
+      />
     </div>
   );
 };

@@ -5,12 +5,12 @@ const Mailbox = () => {
   return (
     <section id="Contact">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
-        <div className="flex justify-between">
+        <div className="sm:flex sm:justify-between">
           <div className="flex flex-col mt-16">
             <h2 className="mb-4 text-4xl  font-bold text-center text-[#EAD4AC] ">
               Contact Us
             </h2>
-            <p className="mb-8 lg:mb-16 font-light text-center text-[#b0885a]  sm:text-xl">
+            <p className="mb-8  lg:mb-16 font-light text-center text-[#b0885a]  sm:text-xl">
               We’d really love to hear from you, like really. We value your
               feedback either negative or positive. So don’t hesitate to contact
               us.
@@ -22,7 +22,11 @@ const Mailbox = () => {
           </div>
         </div>
 
-        <form action="#" className="space-y-8">
+        <form
+          method="POST"
+          action="https://getform.io/f/80c32a5a-1e81-467f-8829-7e3ffbac93b3"
+          className="space-y-8"
+        >
           <div>
             <label
               for="email"
@@ -31,6 +35,7 @@ const Mailbox = () => {
               Your email
             </label>
             <input
+              name="email"
               type="email"
               id="email"
               className="shadow-sm bg-[#0d2b25] border border-[#b0885a] rounded-lg text-white  block w-full p-2.5 "
@@ -46,6 +51,7 @@ const Mailbox = () => {
               Subject
             </label>
             <input
+              name="subject"
               type="text"
               id="subject"
               className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg  block w-full p-2.5 "
@@ -61,10 +67,11 @@ const Mailbox = () => {
               Your message
             </label>
             <textarea
+              name="message"
               id="message"
               rows="6"
               className="shadow-sm bg-[#0d2b25] border border-[#b0885a] text-white text-sm rounded-lg  block w-full p-2.5 "
-              placeholder="Leave a comment..."
+              placeholder="Leave your message..."
             ></textarea>
           </div>
           <button type="submit" className="bg-[#0d2b25]">
